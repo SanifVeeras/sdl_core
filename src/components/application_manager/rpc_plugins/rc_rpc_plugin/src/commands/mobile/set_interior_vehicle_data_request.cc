@@ -174,7 +174,7 @@ bool CheckLightDataByCapabilities(
   std::map<std::string, std::string> lightCapsMapping = {
       {message_params::kId, strings::kName},
       {message_params::kDensity, strings::kDensityAvailable},
-      {message_params::kSRGBColor, strings::kSRGBColorSpaceAvailable}};
+      {message_params::kRGBColor, strings::kRGBColorSpaceAvailable}};
   auto it = light_data.map_begin();
   for (; it != light_data.map_end(); ++it) {
     if (message_params::kStatus == it->first ||

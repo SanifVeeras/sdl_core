@@ -49,6 +49,11 @@ const char kseatControlCapabilities[] = "seatControlCapabilities";
 const char kRadioControlData[] = "radioControlData";
 const char kClimateControlData[] = "climateControlData";
 const char kSupportedLights[] = "supportedLights";
+
+// LightControlCapabilities
+const char kName[] = "name";
+const char kDensityAvailable[] = "densityAvailable";
+const char kRGBColorSpaceAvailable[] = "RGBColorSpaceAvailable";
 }  //  strings
 
 namespace result_codes {
@@ -172,7 +177,7 @@ const char kHeatedMirrorsEnable[] = "heatedMirrorsEnable";
 const char kLightState[] = "lightState";
 const char kStatus[] = "status";
 const char kDensity[] = "density";
-const char kSRGBColor[] = "sRGBColor";
+const char kRGBColor[] = "color";
 
 // AudioControlData
 const char kSource[] = "source";
