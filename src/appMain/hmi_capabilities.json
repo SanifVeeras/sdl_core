@@ -469,18 +469,17 @@
                     }
                 ],
                 "audioControlCapabilities": [
-                {
+                    {
                         "moduleName": "audio",
                         "sourceAvailable": true,
                         "volumeAvailable": true,
                         "equalizerAvailable": true,
                         "keepContextAvailable" : true,
-                        "equalizerMaxChannelId": 80
-
+                        "equalizerMaxChannelId": 10
                     }
                 ],
-		 "seatControlCapabilities": [
-                {
+                "seatControlCapabilities": [
+                    {
                         "moduleName": "driver_seat",
                         "heatingEnabledAvailable" : true,
                         "coolingEnabledAvailable": true,
@@ -498,7 +497,7 @@
                         "massageCushionFirmnessAvailable": true,
                         "memoryAvailable": true
                     }
-                ]
+                ],
                 "lightControlCapabilities": {
                         "moduleName": "light",
                         "supportedLights":[
@@ -702,16 +701,15 @@
                                  "name":"EXTERIOR_RIGHT_LIGHTS",
                                  "sRGBColorSpaceAvailable":true
                               }
-                         ]
+                        ]
 
-                    },
+                },
                 "hmiSettingsControlCapabilities": {
                         "moduleName": "hmiSettings",
                         "distanceUnitAvailable": true,
                         "temperatureUnitAvailable": true,
                         "displayModeUnitAvailable": true
-
-                    }
+                }
             }
         }
     },
