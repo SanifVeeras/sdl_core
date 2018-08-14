@@ -3290,9 +3290,9 @@
             Indicates if the light's density can be set remotely (similar to a dimmer).
             </description>
         </param>
-        <param name="sRGBColorSpaceAvailable" type="Boolean" mandatory="false">
+        <param name="RGBColorSpaceAvailable" type="Boolean" mandatory="false">
             <description>
-            Indicates if the light's color can be set remotely by using the sRGB color space.
+            Indicates if the light's color can be set remotely by using the RGB color space.
             </description>
         </param>
     </struct>
@@ -3315,7 +3315,7 @@
         </param>
         <param name="status" type="LightStatus" mandatory="true"/>
         <param name="density" type="Float" minvalue="0" maxvalue="1" mandatory="false" />
-        <param name="sRGBColor" type="SRGBColor" mandatory="false" />
+        <param name="color" type="RGBColor" mandatory="false" />
     </struct>
 
     <struct name="LightControlData">
