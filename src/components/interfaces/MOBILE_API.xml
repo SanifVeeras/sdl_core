@@ -3195,6 +3195,14 @@
         </param>
     </struct>
 
+
+    <struct name="RGBColor">
+        <param name="red" type="Integer" minvalue="0" maxvalue="255" mandatory="true" />
+        <param name="green" type="Integer" minvalue="0" maxvalue="255" mandatory="true" />
+        <param name="blue" type="Integer" minvalue="0" maxvalue="255" mandatory="true" />
+    </struct>
+
+
     <enum name="LightName">
         <!-- Common Single Light 0~500 -->
         <element name="FRONT_LEFT_HIGH_BEAM" value="0"/>
@@ -3275,12 +3283,6 @@
         <element name="ON"/>
         <element name="OFF"/>
     </enum>
-
-    <struct name="SRGBColor">
-        <param name="red" type="Integer" minvalue="0" maxvalue="255"  mandatory="true"/>
-        <param name="green" type="Integer" minvalue="0" maxvalue="255"  mandatory="true"/>
-        <param name="blue" type="Integer" minvalue="0" maxvalue="255"  mandatory="true"/>
-    </struct>
 
     <struct name="LightCapabilities">
         <param name="name" type="LightName" mandatory="true" />
@@ -3500,12 +3502,6 @@
         <param name="rect" type="Rectangle" mandatory="true">
             <description>The position of the haptic rectangle to be highlighted. The center of this rectangle will be "touched" when a press occurs.</description>
         </param>
-    </struct>
-
-    <struct name="RGBColor">
-        <param name="red" type="Integer" minvalue="0" maxvalue="255" mandatory="true" />
-        <param name="green" type="Integer" minvalue="0" maxvalue="255" mandatory="true" />
-        <param name="blue" type="Integer" minvalue="0" maxvalue="255" mandatory="true" />
     </struct>
 
     <struct name="TemplateColorScheme">
